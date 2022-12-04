@@ -1,0 +1,64 @@
+.footer {
+  height: 146px;
+
+}
+
+.social__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.social {
+  margin-left: 235px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.social__item--icon--tg .social__link {
+  background: url(/img/icon/t.svg);
+}
+
+.social__item--icon--tg .social__link:hover {
+  background: url(/img/icon/hover/t.svg);
+}
+
+.social__item--icon--vk .social__link {
+  background: url(/img/icon/vk.svg);
+}
+
+.social__item--icon--vk .social__link:hover {
+  background: url(/img/icon/hover/vk.svg);
+}
+
+.social__item--icon--fb .social__link {
+  background: url(/img/icon/fb.svg);
+}
+
+.social__item--icon--fb .social__link:hover {
+  background: url(/img/icon/hover/f2.svg);
+}
+
+.social__item--icon--inst .social__link {
+  background: url(/img/icon/in.svg);
+}
+
+.social__item--icon--inst .social__link:hover {
+  background: url(/img/icon/hover/in.svg);
+}
+
+
+.footer__container {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 53px;
+}
+

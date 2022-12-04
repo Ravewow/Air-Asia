@@ -1,0 +1,86 @@
+.offers {
+  margin-top: 246px;
+}
+
+.title--fire {
+  content: "";
+  width: 306px;
+  background: url(/img/icon/flame.svg) no-repeat right top 13px;
+}
+
+.offers__list {
+  margin-top: 51px;
+}
+
+.offers__item {
+  display: inline-block;
+  margin-right: 22px;
+}
+
+.offers__item:last-child {
+  margin-right: 0;
+}
+
+.offers__img {
+  border-radius: 5px 5px 0 0;
+}
+
+.offers__content {
+  padding: 30px 22px;
+  max-width: 362px;
+  min-height: 305px;
+  color: #000;
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+.offers__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.offers__features {
+  margin-top: 21px;
+}
+
+.offers__feature {
+  display: inline-block;
+  margin-right: 28px;
+}
+
+.offers__feature:last-child {
+  margin-right: 0;
+}
+
+.offers__feature-icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.offers__feature-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+  float: right;
+}
+
+.offers__text {
+  margin-top: 23px;
+}
+
+.offers__button {
+  margin-top: 24px;
+  background: #fff;
+  border: 1px solid #f5170e;
+  color: #f5170e;
+}
+
+.offers__button:hover {
+  background: #f5170e;
+  border: 1px solid #f5170e;
+  color: #fff;
+}

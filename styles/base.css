@@ -73,8 +73,8 @@ img {
 }
 
 .wrapper--img {
-  background: url(/img/1.jpg) center top no-repeat,
-    url(/img/2.jpg) right bottom 165px no-repeat;
+  background: url(/Air-Asia/img/1.jpg) center top no-repeat,
+    url(/Air-Asia/img/2.jpg) right bottom 165px no-repeat;
 }
 
 .wrapper__content {

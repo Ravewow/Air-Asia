@@ -61,6 +61,10 @@
 .paginator {
   margin-top: 57.5px;
   text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .paginator__page-number,
@@ -82,12 +86,12 @@
   margin-right: 25px;
 }
 
-.paginator__item--active .paginator__link{
+.paginator__item--active .paginator__link {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   background: #fff;
-  color: #F5170E;
+  color: #f5170e;
 }
 
 .paginator__link {

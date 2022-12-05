@@ -119,6 +119,10 @@ img {
   font-style: normal;
 }
 
+.contacts__info {
+  text-align: right;
+}
+
 .contacs__phone {
   font-style: normal;
   font-weight: 400;

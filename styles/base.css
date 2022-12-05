@@ -119,15 +119,15 @@ img {
   font-style: normal;
 }
 
-.contacts__info {
-  text-align: right;
-}
-
 .contacs__phone {
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
   line-height: 1;
+}
+
+.contacts__info {
+  text-align: right;
 }
 
 .title {

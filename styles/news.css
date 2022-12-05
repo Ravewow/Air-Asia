@@ -61,10 +61,6 @@
 .paginator {
   margin-top: 57.5px;
   text-align: center;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
 }
 
 .paginator__page-number,
@@ -95,5 +91,8 @@
 }
 
 .paginator__link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 32px;
 }

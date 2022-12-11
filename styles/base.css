@@ -76,7 +76,7 @@ img {
 }
 
 .wrapper--img {
-  background: url(/Air-Asia/img/1.jpg) center top 5px no-repeat,
+  background: url(/Air-Asia/img/1.jpg) center top no-repeat,
     url(/Air-Asia/img/2.jpg) center bottom 147px no-repeat;
 }
 
@@ -113,9 +113,12 @@ img {
   line-height: 1;
 }
 
+.menu__list {
+  display: flex;
+}
+
 .menu__item {
   margin-right: 54px;
-  display: inline-block;
 }
 
 .menu__item:hover {

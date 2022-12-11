@@ -23,10 +23,10 @@
 .social {
   margin-right: 68px;
   margin-bottom: 7px;
+  display: flex;
 }
 
 .social__item {
-  display: inline-block;
   vertical-align: middle;
   margin-right: 6px;
 }

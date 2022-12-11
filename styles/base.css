@@ -68,54 +68,61 @@ img {
 }
 
 .wrapper {
-  overflow: hidden;
   min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 1200px;
 }
 
 .wrapper--img {
-  background: url(/Air-Asia/img/1.jpg) center top no-repeat,
-    url(/Air-Asia/img/2.jpg) right bottom 165px no-repeat;
+  background: url(/Air-Asia/img/1.jpg) center top 5px no-repeat,
+    url(/Air-Asia/img/2.jpg) center bottom 147px no-repeat;
 }
 
-.wrapper__content {
-  position: relative;
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 29px;
+  margin-bottom: 30px;
 }
 
-.logo,
-.menu,
-.menu__item,
-.contacts, .social {
-  display: inline-block;
+.header__col {
+  display: flex;
+  align-items: center;
 }
 
-.logo,
+.header__col--align--right {
+  justify-content: flex-end;
+}
+
+.logo {
+  margin-right: 79px;
+}
+
 .contacts {
-  margin-top: 29px;
+  margin-top: 10px;
 }
 
-.menu {
-  margin-top: 42px;
-  margin-left: 79px;
+.contacts__info {
+  text-align: right;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1;
 }
 
 .menu__item {
   margin-right: 54px;
+  display: inline-block;
 }
 
 .menu__item:hover {
-	color: #DA0100;
-}
-
-.menu__item:last-child {
-  margin-right: 0;
-}
-
-.logo {
-  float: left;
+  color: #da0100;
 }
 
 .contacts {
-  float: right;
   font-style: normal;
 }
 
@@ -124,10 +131,6 @@ img {
   font-weight: 400;
   font-size: 26px;
   line-height: 1;
-}
-
-.contacts__info {
-  text-align: right;
 }
 
 .title {
@@ -154,11 +157,3 @@ img {
   line-height: 19px;
 }
 
-.contacts__call {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 20px;
-	color: #9A9A9A;
-	text-align: right;
-}

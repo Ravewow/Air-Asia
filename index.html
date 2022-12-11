@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="/Air-Asia/styles/style.css">
-  <title>Air Asia</title>
+  <title>Air Asia | Главная</title>
 </head>
 
 <body>
@@ -17,20 +18,24 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="/" class="logo">
-            <img src="/Air-Asia/img/лого.svg" alt="Air-Asia логотип" class="logo__img">
-          </a>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-            </ul>
-          </nav>
-          <address class="contacts">
-            <a href="tel:+78007003030" class="contacs__phone">8 800 700 30 30</a>
-            <div class="contacts__info">График работы</div>
-          </address>
+          <div class="header__col">
+            <a href="/" class="logo">
+              <img src="/Air-Asia/img/лого.svg" alt="Air-Asia логотип" class="logo__img">
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="/" class="menu__link">Главная</a></li>
+                <li class="menu__item"><a href="/Air-Asia/services.html" class="menu__link">Услуги</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__col header__col--align--right">
+            <address class="contacts">
+              <a href="tel:+78007003030" class="contacs__phone">8 800 700 30 30</a>
+              <div class="contacts__info">График работы</div>
+            </address>
+          </div>
         </div>
       </header>
       <main class="maincontent">
@@ -45,61 +50,69 @@
           <div class="container">
             <h2 class="title title--fire">Горящие туры</h2>
             <ul class="offers__list">
-              <li class="offers__item">
+              <li class="offers__item offer">
                 <img src="/Air-Asia//img/river.jpg" alt="Фото Таиланд" class="offers__img">
-                <div class="offers__content">
-                  <h5 class="offers__title">Таиланд</h5>
-                  <ul class="offers__features">
-                    <li class="offers__feature">
-                      <img src="/Air-Asia/img/icon/calendar.svg" alt="Иконка календаря" class="offers__feature-icon">
-                      <div class="offers__feature-text">7-12 ночей</div>
+                <div class="offer__content">
+                  <h5 class="offer__title">Таиланд</h5>
+                  <ul class="offer__features">
+                    <li class="offer__feature">
+                      <img src="/Air-Asia/img/icon/calendar.svg" alt="Иконка календаря" class="offer__feature-icon">
+                      <div class="offer__feature-text">7- 12 ночей</div>
                     </li>
-                    <li class="offers__feature">
-                      <img src="/Air-Asia/img/icon/meal.svg" alt="Иконка завтрака" class="offers__feature-icon">
-                      <div class="offers__feature-text">Завтраки</div>
+                    <li class="offer__feature">
+                      <img src="/Air-Asia/img/icon/meal.svg" alt="Иконка завтрака" class="offer__feature-icon">
+                      <div class="offer__feature-text">Завтраки</div>
                     </li>
                   </ul>
-                  <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
-                    значение систем массового участия.</p>
-                  <a href="#" class="button offers__button">Смотреть</a>
+                  <p class="offer__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                    значение систем массового участия.
+                  </p>
+                  <div class="offer__button-wrapper">
+                    <a href="#" class="button offer__button">Смотреть</a>
+                  </div>
                 </div>
               </li>
-              <li class="offers__item">
-                <img src="/Air-Asia/img/pool.jpg" alt="Фото Бали" class="offers__img">
-                <div class="offers__content">
-                  <h5 class="offers__title">Бали</h5>
-                  <ul class="offers__features">
-                    <li class="offers__feature">
-                      <img src="/Air-Asia/img/icon/calendar.svg" alt="Иконка календаря" class="offers__feature-icon">
-                      <div class="offers__feature-text">7-12 ночей</div>
+              <li class="offers__item offer">
+                <img src="/Air-Asia//img/pool.jpg" alt="Фото Таиланд" class="offers__img">
+                <div class="offer__content">
+                  <h5 class="offer__title">Бали</h5>
+                  <ul class="offer__features">
+                    <li class="offer__feature">
+                      <img src="/Air-Asia/img/icon/calendar.svg" alt="Иконка календаря" class="offer__feature-icon">
+                      <div class="offer__feature-text">7- 12 ночей</div>
                     </li>
-                    <li class="offers__feature">
-                      <img src="/Air-Asia/img/icon/meal.svg" alt="Иконка завтрака" class="offers__feature-icon">
-                      <div class="offers__feature-text">Завтраки</div>
+                    <li class="offer__feature">
+                      <img src="/Air-Asia/img/icon/meal.svg" alt="Иконка завтрака" class="offer__feature-icon">
+                      <div class="offer__feature-text">Завтраки</div>
                     </li>
                   </ul>
-                  <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                  <p class="offer__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
                     значение систем массового участия.</p>
-                  <a href="#" class="button offers__button">Смотреть</a>
+                  <div class="offer__button-wrapper">
+                    <a href="#" class="button offer__button offer__button--active">Смотреть</a>
+                  </div>
                 </div>
               </li>
-              <li class="offers__item">
-                <img src="/Air-Asia/img/ocean.jpg" alt="Фото Бали" class="offers__img">
-                <div class="offers__content">
-                  <h5 class="offers__title">Индонезия</h5>
-                  <ul class="offers__features">
-                    <li class="offers__feature">
-                      <img src="/Air-Asia/img/icon/calendar.svg" alt="Иконка календаря" class="offers__feature-icon">
-                      <div class="offers__feature-text">7-12 ночей</div>
+              <li class="offers__item offer">
+                <img src="/Air-Asia//img/ocean.jpg" alt="Фото Таиланд" class="offers__img">
+                <div class="offer__content">
+                  <h5 class="offer__title">Индонезия</h5>
+                  <ul class="offer__features">
+                    <li class="offer__feature">
+                      <img src="/Air-Asia/img/icon/calendar.svg" alt="Иконка календаря" class="offer__feature-icon">
+                      <div class="offer__feature-text">7- 12 ночей</div>
                     </li>
-                    <li class="offers__feature">
-                      <img src="/Air-Asia/img/icon/meal.svg" alt="Иконка завтрака" class="offers__feature-icon">
-                      <div class="offers__feature-text">Завтраки</div>
+                    <li class="offer__feature">
+                      <img src="/Air-Asia/img/icon/meal.svg" alt="Иконка завтрака" class="offer__feature-icon">
+                      <div class="offer__feature-text">Завтраки</div>
                     </li>
                   </ul>
-                  <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
-                    значение систем массового участия.</p>
-                  <a href="#" class="button offers__button">Смотреть</a>
+                  <p class="offer__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                    значение систем массового участия.
+                    lor</p>
+                  <div class="offer__button-wrapper">
+                    <a href="#" class="button offer__button">Смотреть</a>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -109,25 +122,25 @@
           <div class="container">
             <h2 class="title">Новости и акции</h2>
             <ul class="news__list">
-              <li class="news__item">
+              <li class="news__item single-news">
                 <img src="/Air-Asia/img/plain.jpg" alt="" class="news__img">
-                <div class="news__content">
-                  <date class="news__date">Декабрь 2019</date>
-                  <h3 class="news__title">Дешевые путевки на Новый Год!</h3>
-                  <p class="news__subtitle">Проведи новый год в Тайланде</p>
+                <div class="single-news__content">
+                  <date class="single-news__date">Декабрь 2019</date>
+                  <h3 class="single-news__title">Дешевые путевки на Новый Год!</h3>
+                  <p class="single-news__subtitle">Проведи новый год в Тайланде</p>
                 </div>
               </li>
-              <li class="news__item">
+              <li class="news__item single-news">
                 <img src="/Air-Asia/img/Surfer.jpg" alt="" class="news__img">
-                <div class="news__content">
-                  <date class="news__date">Декабрь 2019</date>
-                  <h3 class="news__title">Акция для серфенгистов!</h3>
-                  <p class="news__subtitle">В сезон больших волн скидка на путевку в Тайланд на остров
+                <div class="single-news__content">
+                  <date class="single-news__date">Декабрь 2019</date>
+                  <h3 class="single-news__title">Акция для серфенгистов!</h3>
+                  <p class="single-news__subtitle">В сезон больших волн скидка на путевку в Тайланд на остров
                     серфенгистов. Удачного пути!</p>
                 </div>
               </li>
             </ul>
-            <div class="paginator">
+            <div class="paginator news__paginator">
               <div class="paginator__page-number">Страница 1 из 7</div>
               <ul class="paginator__list">
                 <li class="paginator__item paginator__item--active"><a href="#" class="paginator__link ">1</a></li>
@@ -158,27 +171,31 @@
       </main>
     </div>
     <footer class="footer">
-      <div class="container footer__container">
-        <a href="" class="logo">
-          <img src="/Air-Asia/img/лого.svg" alt="логотип" class="logo__img">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+      <div class="container footer__container footer__main">
+        <div class="footer__col">
+          <a href="" class="logo">
+            <img src="/Air-Asia/img/лого.svg" alt="логотип" class="logo__img">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__col footer__col--align--right">
+          <ul class="social">
+            <li class="social__item social__item--icon--tg"><a href="#" class="social__link"></a></li>
+            <li class="social__item social__item--icon--vk"><a href="#" class="social__link"></a></li>
+            <li class="social__item social__item--icon--fb"><a href="#" class="social__link"></a></li>
+            <li class="social__item social__item--icon--inst"><a href="#" class="social__link"></a></li>
           </ul>
-        </nav>
-        <ul class="social">
-          <li class="social__item social__item--icon--tg"><a href="#" class="social__link"></a></li>
-          <li class="social__item social__item--icon--vk"><a href="#" class="social__link"></a></li>
-          <li class="social__item social__item--icon--fb"><a href="#" class="social__link"></a></li>
-          <li class="social__item social__item--icon--inst"><a href="#" class="social__link"></a></li>
-        </ul>
-        <address class="contacts">
-          <div class="contacts__call">Бесплатный звонок по России</div>
-          <a href="tel:+78007003030" class="contacs__phone">8 800 700 30 30</a>
-        </address>
+          <address class="contacts">
+            <div class="contacts__call">Бесплатный звонок по России</div>
+            <a href="tel:+78007003030" class="contacs__phone">8 800 700 30 30</a>
+          </address>
+        </div>
       </div>
     </footer>
   </div>

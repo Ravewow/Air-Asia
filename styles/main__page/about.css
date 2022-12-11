@@ -1,6 +1,7 @@
 .about {
-  margin-top: 152px;
+  margin-top: 145px;
   height: 552px;
+  display: flex;
 }
 
 .about__container {
@@ -16,7 +17,7 @@
   position: absolute;
   top: 97px;
   right: 0;
-  width: 785px;
+  width: 788px;
   height: 455px;
   background: url(/Air-Asia/img/mountains.jpg);
   border-radius: 5px;
@@ -24,11 +25,12 @@
   padding-left: 81px;
   padding-right: 81px;
   padding-bottom: 66px;
+  overflow: hidden;
 }
 
 .about__text {
   max-width: 502px;
-  margin-top: 37px;
+  margin-top: 40px;
   color: #000;
   font-style: normal;
   font-weight: 400;
@@ -37,5 +39,5 @@
 }
 
 .about__button {
-  margin-top: 37px;
+  margin-top: 42px;
 }

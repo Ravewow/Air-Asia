@@ -1,0 +1,107 @@
+.offers {
+  margin-top: 246px;
+}
+
+.title--fire {
+  width: 306px;
+  background: url(/Air-Asia/img/icon/flame.svg) no-repeat right top 13px;
+}
+
+.offers__list {
+  margin-top: 51px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__item {
+  width: 362px;
+}
+
+.offer {
+  min-height: 449px;
+  color: #000;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.offer__img {
+  border-radius: 5px 5px 0 0;
+}
+
+.offer__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 33px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.offer__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.offer__features {
+  margin-top: 21px;
+  display: flex;
+  gap: 25px;
+}
+
+.offer__feature {
+  display: flex;
+}
+
+.offer__feature-icon {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.offer__feature-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+  float: right;
+}
+
+.offer__text {
+  margin-top: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.offer__button-wrapper {
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: auto;
+}
+
+.offer__button {
+  width: 135px;
+  background: #fff;
+  border: 1px solid #f5170e;
+  color: #f5170e;
+}
+
+.offer__button:hover {
+  background: #f5170e;
+  border: 1px solid #f5170e;
+  color: #fff;
+}
+
+.offer__button--active {
+  background: #f5170e;
+  border: 1px solid #f5170e;
+  color: #fff;
+}

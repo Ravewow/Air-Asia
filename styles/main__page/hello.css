@@ -1,10 +1,17 @@
+.hello__container {
+  display: flex;
+  flex-direction: column;
+  min-height: 427px;
+  justify-content: flex-end;
+}
+
 .hello__title {
-  margin-top: 135px;
+  margin-top: 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
   line-height: 98px;
-  max-width: 511px;
+  max-width: 45%;
 }
 
 .hello__subtitle {

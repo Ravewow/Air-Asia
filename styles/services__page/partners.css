@@ -1,0 +1,28 @@
+.partners {
+  background: #F4F5F5;
+  padding-top: 75px;
+  padding-bottom: 92px;
+}
+
+.partners__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #1a1b1e;
+  margin-bottom: 70px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.partners__link {
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items:center;
+  justify-content: center;
+}

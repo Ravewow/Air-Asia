@@ -1,7 +1,12 @@
 @import url(/Air-Asia/styles/base.css);
-@import url(/Air-Asia/styles/header.css);
-@import url(/Air-Asia/styles/hello.css);
-@import url(/Air-Asia/styles/offers.css);
-@import url(/Air-Asia/styles/news.css);
-@import url(/Air-Asia/styles/about.css);
+@import url(/Air-Asia/styles/main__page/header.css);
+@import url(/Air-Asia/styles/main__page/hello.css);
+@import url(/Air-Asia/styles/main__page/offers.css);
+@import url(/Air-Asia/styles/main__page/news.css);
+@import url(/Air-Asia/styles/main__page/about.css);
 @import url(/Air-Asia/styles/footer.css);
+@import url(/Air-Asia/styles/services__page/services.css);
+@import url(/Air-Asia/styles/services__page/top-line.css);
+@import url(/Air-Asia/styles/services__page/page-content.css);
+@import url(/Air-Asia/styles/services__page/partners.css);
+@import url(/Air-Asia/styles/services__page/footer__services.css);

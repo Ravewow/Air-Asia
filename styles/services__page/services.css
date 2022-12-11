@@ -1,0 +1,15 @@
+.top-line {
+  background: url(/Air-Asia/img//services__page/services__headline.jpeg) top right -100px no-repeat;
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 23.5px;
+}
+
+.top-line__container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+
+}

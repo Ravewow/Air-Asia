@@ -1,20 +1,34 @@
-.footer {
-  height: 146px;
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
 
+.footer__main {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  height: 130px;
+  margin-top: 56px;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  align-items: flex-end;
+}
+
+.social {
+  margin-right: 68px;
+  margin-bottom: 7px;
 }
 
 .social__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
-}
-
-.social {
-  margin-left: 235px;
-}
-
-.social__item:last-child {
-  margin-right: 0;
+  margin-right: 6px;
 }
 
 .social__link {
@@ -56,10 +70,11 @@
   background: url(/Air-Asia/img/icon/hover/in.svg);
 }
 
-
-.footer__container {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 53px;
-  padding-top: 16px;
+.contacts__call {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  color: #9a9a9a;
+  text-align: right;
 }
-

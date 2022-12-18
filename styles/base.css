@@ -157,5 +157,108 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
+  color: #FFF;
   line-height: 19px;
+}
+
+.page-content {
+  background: #fff;
+  padding: 98px 0;
+}
+
+.feedbacks {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #818181;
+  column-count: 2;
+  column-gap: 30px;
+  margin-bottom: 70px;
+}
+
+.feedbacks__item {
+  margin-bottom: 20px;
+}
+
+.feedback {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: #f4f5f5;
+  border-radius: 5px;
+}
+
+.feedback__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.avatar {
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.feedback__user {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+  margin-bottom: 11px;
+  color: #1a1b1e;
+}
+
+.feedback__user:hover {
+  color: #2e77a4;
+  text-decoration: underline;
+}
+
+.feedback__user::after {
+  content: url("/Air-Asia/img/feedback__page/vk-blue1.png");
+  height: 29px;
+  margin-left: 7px;
+}
+
+.feedback__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  background: #e7e7e7;
+  padding: 10px 17px;
+  border-radius: 35px;
+}
+
+.tag--bg--green {
+  background: #b9eae4;
+}
+
+.feedback__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  color: #1a1b1e;
+  margin-bottom: 13px;
+}
+
+.feedback__text {
+  margin-bottom: 50px;
+}
+
+.feedback__date {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 27px;
+  color: #1a1b1e;
 }

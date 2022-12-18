@@ -42,37 +42,70 @@
   background: center center no-repeat;
 }
 
-.social__item--icon--tg .social__link {
-  background: url(/Air-Asia/img/icon/t.svg);
+.social__item {
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
 }
 
-.social__item--icon--tg .social__link:hover {
-  background: url(/Air-Asia/img/icon/hover/t.svg);
+.social__item--icon--tg .social__link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  transform: translate(-50%, -50%);
+  background: url("/Air-Asia/img/icon/icon__sprites.png") -10px -66px;
+}
+
+.social__item--icon--tg:hover .social__link {
+  background: url("/Air-Asia/img/icon/icon__sprites.png") -66px -122px;
 }
 
 .social__item--icon--vk .social__link {
-  background: url(/Air-Asia/img/icon/vk.svg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  transform: translate(-50%, -50%);
+  background: url("/Air-Asia/img/icon/icon__sprites.png") -66px -66px;
 }
 
-.social__item--icon--vk .social__link:hover {
-  background: url(/Air-Asia/img/icon/hover/vk.svg);
+.social__item--icon--vk:hover .social__link {
+  background: url("/Air-Asia/img/icon/icon__sprites.png") -122px -10px;
 }
 
 .social__item--icon--fb .social__link {
-  background: url(/Air-Asia/img/icon/fb.svg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  transform: translate(-50%, -50%);
+  background: url("/Air-Asia/img/icon/icon__sprites.png") -10px -10px;
 }
 
-.social__item--icon--fb .social__link:hover {
-  background: url(/Air-Asia/img/icon/hover/f2.svg);
+.social__item--icon--fb:hover .social__link {
+  background: url("/Air-Asia/img/icon/icon__sprites.png") -122px -66px;
 }
 
 .social__item--icon--inst .social__link {
-  background: url(/Air-Asia/img/icon/in.svg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  transform: translate(-50%, -50%);
+  background: url("/Air-Asia/img/icon/icon__sprites.png") -66px -10px;
 }
 
-.social__item--icon--inst .social__link:hover {
-  background: url(/Air-Asia/img/icon/hover/in.svg);
+.social__item--icon--inst:hover .social__link {
+  background: url("/Air-Asia/img/icon/icon__sprites.png") -10px -122px;
 }
+
 
 .contacts__call {
   font-style: normal;

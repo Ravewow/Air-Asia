@@ -1,11 +1,11 @@
-.footer__container {
+.footer--container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: auto;
 }
 
-.footer__main {
+.footer--top-line {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   height: 130px;
   margin-top: 56px;

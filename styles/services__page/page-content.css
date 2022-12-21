@@ -53,15 +53,12 @@
 }
 
 .services__paginator {
-  
   color: #000000;
 }
 
-.services__paginator .paginator__item--active .paginator__link {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+.services__paginator .paginator__link:hover{
   background: #f5170e;
-  font-weight: 700;
   color: #fff;
 }
+
+

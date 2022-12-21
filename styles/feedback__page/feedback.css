@@ -24,12 +24,12 @@
   margin-top: 21px;
 }
 
-.feedback__form {
+.feedback-form {
   background: #f4f5f5;
   padding-top: 62px;
 }
 
-.feedback__form-title {
+.feedback-form-title {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -116,11 +116,11 @@
 }
 
 .button--color--black {
-  background: #2b2b2b;
+  background: #F5170E;
 }
 
 .button--color--black:hover {
-  background: #F5170E;
+  background: #2b2b2b;
 }
 
 .form__button {

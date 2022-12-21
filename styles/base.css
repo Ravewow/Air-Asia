@@ -122,7 +122,8 @@ img {
 }
 
 .dropdown:hover .dropdown__menu {
-  display: block;
+  right: 0;
+  opacity: 1;
 }
 
 .dropdown__menu {
@@ -133,9 +134,10 @@ img {
   border-radius: 7px;
   padding: 15px 19px;
   top: 100%;
-  right: 0;
+  right: -9999px;
   margin-top: 10px;
-  display: none;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .dropdown__menu:before {
@@ -169,6 +171,7 @@ img {
 
 .menu__item {
   margin-right: 54px;
+  transition: color 0.3s;
 }
 
 .menu__item:hover {
@@ -209,6 +212,55 @@ img {
   font-size: 14px;
   color: #fff;
   line-height: 19px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background: #DA0100;
+}
+
+
+.paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news__paginator {
+  margin-top: 52px;
+}
+
+.paginator__list {
+  display: flex;
+}
+
+.paginator__item {
+  text-align: center;
+}
+
+.paginator__item:last-child {
+  margin-right: 0;
+}
+
+.paginator__page-number {
+  margin-right: 25px;
+}
+
+.paginator__link {
+  width: 32px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  border-radius: 50%;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.paginator__link:hover {
+  background: #fff;
+  color: #f5170e;
 }
 
 .page-content {
